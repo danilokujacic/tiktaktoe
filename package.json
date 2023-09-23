@@ -1,0 +1,30 @@
+{
+  "name": "tiktaktoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.22.15",
+    "firebase": "^10.4.0",
+    "jest": "^29.7.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@jest/globals": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
